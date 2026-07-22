@@ -1,0 +1,20 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Ensure shell scripts use LF
+*.sh text eol=lf
+
+# Treat JSON, JS, JSX, TS, TSX as text
+*.json text
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
